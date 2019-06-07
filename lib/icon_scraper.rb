@@ -3,6 +3,7 @@ require "icon_scraper/page/terms_and_conditions"
 
 require "mechanize"
 require "scraperwiki"
+require "active_support/core_ext/hash"
 
 module IconScraper
   def self.scrape_and_save(authority)
@@ -14,21 +15,25 @@ module IconScraper
 
       Page::TermsAndConditions.agree(doc)
 
-      rest_xml(
+      rest_xml2(
         url,
-        "d=last14days&k=LodgementDate&o=xml",
+        {d: "last14days", k: "LodgementDate", o: "xml"},
         false,
         agent
       )
     elsif authority == :swan
       url = "https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx"
-      IconScraper.rest_xml(
+      IconScraper.rest_xml2(
         url,
-        "d=thisweek&k=LodgementDate&t=282,281,283&o=xml"
+        {d: "thisweek", k: "LodgementDate", t: "282,281,283", o: "xml"}
       )
     else
       raise "Unexpected authority: #{authority}"
     end
+  end
+
+  def self.rest_xml2(base_url, query, debug = false, agent = nil)
+    rest_xml(base_url, query.to_query, debug, agent)
   end
 
   # Copied from lib_icon_rest_xml repo
