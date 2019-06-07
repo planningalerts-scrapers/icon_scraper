@@ -151,7 +151,7 @@
   date_scraped: '2019-05-15'
   info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463371
 - council_reference: BP-1222/2019
-  description: Dwelling
+  description: Dwelling and Retaining Wall
   date_received: '2019-06-06'
   address: 58 Cruse Road BELHUS WA 6069
   date_scraped: '2019-05-15'
@@ -216,6 +216,96 @@
   address: 3/40 Blackburn Street BELLEVUE WA 6056
   date_scraped: '2019-05-15'
   info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463427
+- council_reference: BP-1233/2019
+  description: Carport
+  date_received: '2019-06-07'
+  address: Guildford Fire Station 2 Meadow Street GUILDFORD WA 6055
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463445
+- council_reference: BP-1234/2019
+  description: Swimming Pool. Barrier, Screen Wall, Patio, Storage Building and Decking
+  date_received: '2019-06-07'
+  address: 30 Wychwood Close BULLSBROOK WA 6084
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463455
+- council_reference: BP-1235/2019
+  description: Service Station, Shop, Restaurant and Forecourt Canopy including Earthworks
+  date_received: '2019-06-07'
+  address: 1447 Great Northern Highway UPPER SWAN WA 6069
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463459
+- council_reference: BP-1236/2019
+  description: Phone Tower
+  date_received: '2019-06-07'
+  address: 306 Victoria Road MALAGA WA 6090
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463461
+- council_reference: BP-1237/2019
+  description: Dwelling
+  date_received: '2019-06-06'
+  address: 80 Georgina Parade BRABHAM WA 6055
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463463
+- council_reference: BP-1238/2019
+  description: Dwelling
+  date_received: '2019-06-07'
+  address: 24 Alicante Road CAVERSHAM WA 6055
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463466
+- council_reference: BP-1239/2019
+  description: Retaining Walls, Walkways,Entry Statement Walls, Balustrades and Decking
+  date_received: '2019-06-07'
+  address: Lot 901 Chittering Road BULLSBROOK WA 6084
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463468
+- council_reference: BP-1240/2019
+  description: Dwelling and Retaining Wall
+  date_received: '2019-06-07'
+  address: 1/4 Hurd Road BULLSBROOK WA 6084
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463473
+- council_reference: BP-1241/2019
+  description: Dwelling, Carport and Garage
+  date_received: '2019-06-07'
+  address: 116 Hancock Avenue AVELEY WA 6069
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463475
+- council_reference: BP-1242/2019
+  description: Dwelling and Garage
+  date_received: '2019-06-07'
+  address: 46 Aquila Crescent BENNETT SPRINGS WA 6063
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463478
+- council_reference: BP-1243/2019
+  description: Dwelling and Garage
+  date_received: '2019-06-07'
+  address: 597 Farrall Road MIDVALE WA 6056
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463480
+- council_reference: BP-1244/2019
+  description: Dwelling and Garage
+  date_received: '2019-06-07'
+  address: 24 Ullswater Chase AVELEY WA 6069
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463484
+- council_reference: BP-1245/2019
+  description: Dwelling
+  date_received: '2019-06-07'
+  address: 124 Coast Road DAYTON WA 6055
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463494
+- council_reference: BP-1246/2019
+  description: Patio
+  date_received: '2019-06-07'
+  address: 4 Wynette Road CAVERSHAM WA 6055
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463496
+- council_reference: BP-222/2019/B
+  description: Dwelling and Garage - Amendment
+  date_received: '2019-06-07'
+  address: 65 Pegasus Road BENNETT SPRINGS WA 6063
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463487
 - council_reference: BP-252/2019/A
   description: Dwelling, Garage and Alfresco - Amendment
   date_received: '2019-06-06'
@@ -345,6 +435,24 @@
   address: Toodyay Road JANE BROOK WA 6056
   date_scraped: '2019-05-15'
   info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463409
+- council_reference: DA-347/2019
+  description: Proposed Overwidth Driveway, Shed, Front Fence and Watertanks
+  date_received: '2019-06-07'
+  address: 10 Avana Loop CAVERSHAM WA 6055
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463440
+- council_reference: DA-348/2019
+  description: Existing Outbuilding and Prospective Patio
+  date_received: '2019-06-07'
+  address: 99 Albert Road MIDDLE SWAN WA 6056
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463450
+- council_reference: DA-349/2019
+  description: Part Demolition, Alterations & additions to construct a Verandah
+  date_received: '2019-06-07'
+  address: 11 Water Street GUILDFORD WA 6055
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463477
 - council_reference: DA-739/2018/A
   description: Amendment - Modifications to the original development application DA-739/2018
   date_received: '2019-06-04'
@@ -357,6 +465,24 @@
   address: 29 Caladenia Way KOONGAMIA WA 6056
   date_scraped: '2019-05-15'
   info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463267
+- council_reference: DP-34/2019
+  description: Dwelling
+  date_received: '2019-06-07'
+  address: 9 Wroxton Street MIDLAND WA 6056
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463489
+- council_reference: DP-35/2019
+  description: Dwelling
+  date_received: '2019-06-07'
+  address: 7 Wroxton Street MIDLAND WA 6056
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463491
+- council_reference: DP-36/2019
+  description: Dwelling
+  date_received: '2019-06-07'
+  address: 5 Wroxton Street MIDLAND WA 6056
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463492
 - council_reference: OP-45/2019
   description: Transportable Offices (2)
   date_received: '2019-06-04'
@@ -369,6 +495,12 @@
   address: 24 Magenta Vista BRABHAM WA 6055
   date_scraped: '2019-05-15'
   info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463313
+- council_reference: RC-52/2019
+  description: Patio
+  date_received: '2019-06-07'
+  address: 41 Diana Crescent LOCKRIDGE WA 6054
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463482
 - council_reference: S40-10/2019
   description: S40 Application - Mad Mex Midland
   date_received: '2019-06-05'
@@ -393,6 +525,12 @@
   address: Lot 9344 The Promenade ELLENBROOK WA 6069
   date_scraped: '2019-05-15'
   info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463376
+- council_reference: SBCL-27/2016/1
+  description: Clearance of Conditions (1-3)
+  date_received: '2019-06-07'
+  address: 3 The Ridgeway SWAN VIEW WA 6056
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463452
 - council_reference: SBCL-33/2018/3
   description: Clearance of Conditions (1-5, 7-18)
   date_received: '2019-06-05'
@@ -413,6 +551,12 @@
   address: 59 Woolgar Way LOCKRIDGE WA 6054
   date_scraped: '2019-05-15'
   info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463310
+- council_reference: SSCL-15/2017/1
+  description: Clearance of Conditions (1-9, 15, 16 and 19)
+  date_received: '2019-06-07'
+  address: 13 Amherst Road WOODBRIDGE WA 6056
+  date_scraped: '2019-05-15'
+  info_url: https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx?id=463443
 - council_reference: SSCL-5/2018/1
   description: Clearance of Conditions (1-5)
   date_received: '2019-06-06'
