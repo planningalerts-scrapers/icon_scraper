@@ -6,25 +6,26 @@ require "scraperwiki"
 module IconScraper
   def self.scrape_and_save(authority)
     if authority == :blue_mountains
-      starting_url = "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx"
+      url = "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx"
 
       agent = Mechanize.new
 
-      doc = agent.get(starting_url)
+      doc = agent.get(url)
       form = doc.forms.first
       button = form.button_with(value: "I Agree")
       raise "Can't find agree button" if button.nil?
       doc = form.submit(button)
 
       rest_xml(
-        starting_url,
+        url,
         "d=last14days&k=LodgementDate&o=xml",
         false,
         agent
       )
     elsif authority == :swan
+      url = "https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx"
       IconScraper.rest_xml(
-        "https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx",
+        url,
         "d=thisweek&k=LodgementDate&t=282,281,283&o=xml"
       )
     else
