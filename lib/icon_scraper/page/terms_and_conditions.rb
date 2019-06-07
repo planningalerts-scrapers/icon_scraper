@@ -2,17 +2,19 @@ module IconScraper
   module Page
     module TermsAndConditions
       def self.agree(doc)
-        form = doc.forms.first
-        button = form.button_with(value: "I Agree")
+        button = agree_button(doc)
         raise "Can't find agree button" if button.nil?
-        form.submit(button)
+
+        doc.form.submit(button)
       end
 
       # See if we're actually on this page
       def self.on?(doc)
-        form = doc.forms.first
-        button = form.button_with(value: "I Agree")
-        !button.nil?
+        !agree_button(doc).nil?
+      end
+
+      def self.agree_button(doc)
+        doc.form.button_with(value: "I Agree")
       end
     end
   end
