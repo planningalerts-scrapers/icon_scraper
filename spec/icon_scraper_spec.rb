@@ -13,7 +13,9 @@ RSpec.describe IconScraper do
           "http://epb.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx",
           {d: "thisweek", k: "LodgementDate", t: "282,281,283", o: "xml"},
           agent
-        )
+        ) do |record|
+          IconScraper.save(record)
+        end
       end
     end
   end

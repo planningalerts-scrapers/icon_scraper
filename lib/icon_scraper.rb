@@ -29,7 +29,9 @@ module IconScraper
     params = {d: period, k: "LodgementDate", o: "xml"}
     params[:t] = t.join(",") if t
 
-    rest_xml(url, params, agent)
+    rest_xml(url, params, agent) do |record|
+      save(record)
+    end
   end
 
   def self.rest_xml(base_url, query, agent)
@@ -87,7 +89,7 @@ module IconScraper
       #  record["on_notice_to"] = Date.parse(e.parent.at("DateDue").inner_text).to_s
       #end
 
-      save(record)
+      yield record
     end
   end
 
