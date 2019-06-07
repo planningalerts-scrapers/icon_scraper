@@ -16,25 +16,20 @@ module IconScraper
       doc = agent.get(url)
 
       Page::TermsAndConditions.agree(doc)
-
-      params = {d: period, k: "LodgementDate", o: "xml"}
-      params[:t] = t.join(",") if t
-
-      rest_xml(url, params, agent)
     elsif authority == :swan
       url = "https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx"
       t = [282, 281, 283]
       period = "thisweek"
 
       agent = Mechanize.new
-
-      params = {d: period, k: "LodgementDate", o: "xml"}
-      params[:t] = t.join(",") if t
-
-      rest_xml(url, params, agent)
     else
       raise "Unexpected authority: #{authority}"
     end
+
+    params = {d: period, k: "LodgementDate", o: "xml"}
+    params[:t] = t.join(",") if t
+
+    rest_xml(url, params, agent)
   end
 
   def self.rest_xml(base_url, query, agent)
