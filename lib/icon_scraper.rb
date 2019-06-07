@@ -15,7 +15,9 @@ module IconScraper
       agent = Mechanize.new
       doc = agent.get(url)
 
-      Page::TermsAndConditions.agree(doc)
+      if Page::TermsAndConditions.on?(doc)
+        Page::TermsAndConditions.agree(doc)
+      end
     elsif authority == :swan
       url = "https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx"
       t = [282, 281, 283]
@@ -23,6 +25,10 @@ module IconScraper
 
       agent = Mechanize.new
       doc = agent.get(url)
+
+      if Page::TermsAndConditions.on?(doc)
+        Page::TermsAndConditions.agree(doc)
+      end
     else
       raise "Unexpected authority: #{authority}"
     end
