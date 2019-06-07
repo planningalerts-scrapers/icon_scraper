@@ -1,4 +1,5 @@
 require "icon_scraper/version"
+require "icon_scraper/page/terms_and_conditions"
 
 require "mechanize"
 require "scraperwiki"
@@ -9,12 +10,9 @@ module IconScraper
       url = "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx"
 
       agent = Mechanize.new
-
       doc = agent.get(url)
-      form = doc.forms.first
-      button = form.button_with(value: "I Agree")
-      raise "Can't find agree button" if button.nil?
-      doc = form.submit(button)
+
+      Page::TermsAndConditions.agree(doc)
 
       rest_xml(
         url,
