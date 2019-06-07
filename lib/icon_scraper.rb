@@ -23,7 +23,6 @@ module IconScraper
       rest_xml(
         url,
         params,
-        false,
         agent
       )
     elsif authority == :swan
@@ -43,7 +42,7 @@ module IconScraper
     end
   end
 
-  def self.rest_xml(base_url, query, debug = false, agent = nil)
+  def self.rest_xml(base_url, query, agent = nil)
     query = query.to_query
     agent = Mechanize.new unless agent
     page = agent.get("#{base_url}?#{query}")
@@ -99,11 +98,7 @@ module IconScraper
       #  record["on_notice_to"] = Date.parse(e.parent.at("DateDue").inner_text).to_s
       #end
 
-      if debug
-        p record
-      else
-        ScraperWiki.save_sqlite(['council_reference'], record)
-      end
+      ScraperWiki.save_sqlite(['council_reference'], record)
     end
   end
 
