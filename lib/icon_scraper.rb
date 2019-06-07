@@ -11,26 +11,19 @@ module IconScraper
       url = "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx"
       t = nil
       period = "last14days"
-
-      agent = Mechanize.new
-      doc = agent.get(url)
-
-      if Page::TermsAndConditions.on?(doc)
-        Page::TermsAndConditions.agree(doc)
-      end
     elsif authority == :swan
       url = "https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx"
       t = [282, 281, 283]
       period = "thisweek"
-
-      agent = Mechanize.new
-      doc = agent.get(url)
-
-      if Page::TermsAndConditions.on?(doc)
-        Page::TermsAndConditions.agree(doc)
-      end
     else
       raise "Unexpected authority: #{authority}"
+    end
+
+    agent = Mechanize.new
+    doc = agent.get(url)
+
+    if Page::TermsAndConditions.on?(doc)
+      Page::TermsAndConditions.agree(doc)
     end
 
     params = {d: period, k: "LodgementDate", o: "xml"}
