@@ -87,8 +87,17 @@ module IconScraper
       #  record["on_notice_to"] = Date.parse(e.parent.at("DateDue").inner_text).to_s
       #end
 
-      ScraperWiki.save_sqlite(['council_reference'], record)
+      save(record)
     end
+  end
+
+  def self.save(record)
+    log(record)
+    ScraperWiki.save_sqlite(["council_reference"], record)
+  end
+
+  def self.log(record)
+    puts "Storing #{record['council_reference']} - #{record['address']}"
   end
 
   # Copied from lib_icon_rest_xml repo
