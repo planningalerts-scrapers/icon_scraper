@@ -49,9 +49,7 @@ module IconScraper
         # with the same council_reference which isn't currently allowed.
         "address" => address,
         "date_scraped" => Date.today.to_s,
-        "info_url" => info_url,
-        # Can't find a specific url for commenting on applications.
-        "comment_url" => info_url,
+        "info_url" => info_url
       }
       # DA03NY1 appears to be the event code for putting this application on exhibition
       # Commenting this out because I don't know whether this can be applied generally to all
