@@ -22,6 +22,7 @@ module IconScraper
       period = "thisweek"
 
       agent = Mechanize.new
+      doc = agent.get(url)
     else
       raise "Unexpected authority: #{authority}"
     end
