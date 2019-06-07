@@ -15,7 +15,7 @@ module IconScraper
 
       Page::TermsAndConditions.agree(doc)
 
-      rest_xml2(
+      rest_xml(
         url,
         {d: "last14days", k: "LodgementDate", o: "xml"},
         false,
@@ -23,7 +23,7 @@ module IconScraper
       )
     elsif authority == :swan
       url = "https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx"
-      IconScraper.rest_xml2(
+      IconScraper.rest_xml(
         url,
         {d: "thisweek", k: "LodgementDate", t: "282,281,283", o: "xml"}
       )
@@ -32,12 +32,8 @@ module IconScraper
     end
   end
 
-  def self.rest_xml2(base_url, query, debug = false, agent = nil)
-    rest_xml(base_url, query.to_query, debug, agent)
-  end
-
-  # Copied from lib_icon_rest_xml repo
   def self.rest_xml(base_url, query, debug = false, agent = nil)
+    query = query.to_query
     agent = Mechanize.new unless agent
     page = agent.get("#{base_url}?#{query}")
 
