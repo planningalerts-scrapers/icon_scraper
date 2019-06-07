@@ -8,9 +8,11 @@ RSpec.describe IconScraper do
   describe ".rest_xml", :vcr do
     context "feed without address" do
       it "should not error" do
+        agent = Mechanize.new
         IconScraper.rest_xml(
           "http://epb.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx",
-          {d: "thisweek", k: "LodgementDate", t: "282,281,283", o: "xml"}
+          {d: "thisweek", k: "LodgementDate", t: "282,281,283", o: "xml"},
+          agent
         )
       end
     end

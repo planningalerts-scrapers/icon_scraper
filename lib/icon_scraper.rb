@@ -20,31 +20,25 @@ module IconScraper
       params = {d: period, k: "LodgementDate", o: "xml"}
       params[:t] = t.join(",") if t
 
-      rest_xml(
-        url,
-        params,
-        agent
-      )
+      rest_xml(url, params, agent)
     elsif authority == :swan
       url = "https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx"
       t = [282, 281, 283]
       period = "thisweek"
 
+      agent = Mechanize.new
+
       params = {d: period, k: "LodgementDate", o: "xml"}
       params[:t] = t.join(",") if t
 
-      IconScraper.rest_xml(
-        url,
-        params
-      )
+      rest_xml(url, params, agent)
     else
       raise "Unexpected authority: #{authority}"
     end
   end
 
-  def self.rest_xml(base_url, query, agent = nil)
+  def self.rest_xml(base_url, query, agent)
     query = query.to_query
-    agent = Mechanize.new unless agent
     page = agent.get("#{base_url}?#{query}")
 
     # Explicitly interpret as XML
