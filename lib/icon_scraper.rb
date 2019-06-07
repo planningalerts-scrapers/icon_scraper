@@ -9,23 +9,34 @@ module IconScraper
   def self.scrape_and_save(authority)
     if authority == :blue_mountains
       url = "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx"
+      t = nil
+      period = "last14days"
 
       agent = Mechanize.new
       doc = agent.get(url)
 
       Page::TermsAndConditions.agree(doc)
 
+      params = {d: period, k: "LodgementDate", o: "xml"}
+      params[:t] = t.join(",") if t
+
       rest_xml(
         url,
-        {d: "last14days", k: "LodgementDate", o: "xml"},
+        params,
         false,
         agent
       )
     elsif authority == :swan
       url = "https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx"
+      t = [282, 281, 283]
+      period = "thisweek"
+
+      params = {d: period, k: "LodgementDate", o: "xml"}
+      params[:t] = t.join(",") if t
+
       IconScraper.rest_xml(
         url,
-        {d: "thisweek", k: "LodgementDate", t: "282,281,283", o: "xml"}
+        params
       )
     else
       raise "Unexpected authority: #{authority}"
