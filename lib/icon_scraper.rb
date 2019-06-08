@@ -17,7 +17,7 @@ module IconScraper
       IconScraper.rest_xml(
         "https://planningexchange.coffsharbour.nsw.gov.au/"\
         "PortalProd/Pages/XC.Track/SearchApplication.aspx",
-        { d: "thisweek", k: "LodgementDate", o: "xml" },
+        { d: "last14days", k: "LodgementDate", o: "xml" },
         agent
       ) do |record|
         yield record
