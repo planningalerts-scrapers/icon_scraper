@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "timecop"
 
 RSpec.describe IconScraper do
@@ -11,7 +13,7 @@ RSpec.describe IconScraper do
         agent = Mechanize.new
         IconScraper.rest_xml(
           "http://epb.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx",
-          {d: "thisweek", k: "LodgementDate", t: "282,281,283", o: "xml"},
+          { d: "thisweek", k: "LodgementDate", t: "282,281,283", o: "xml" },
           agent
         ) do |record|
           IconScraper.save(record)
@@ -50,8 +52,8 @@ RSpec.describe IconScraper do
       expect(results).to eq expected
     end
 
-    AUTHORITIES = [
-      :blue_mountains, :swan, :coffs_harbour
+    AUTHORITIES = %i[
+      blue_mountains swan coffs_harbour
     ].freeze
 
     AUTHORITIES.each do |authority|

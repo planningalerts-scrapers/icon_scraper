@@ -1,5 +1,8 @@
+# frozen_string_literal: true
+
 module IconScraper
   module Page
+    # The page which pops annoyingly for you to agree to some arbitrary terms and conditions
     module TermsAndConditions
       def self.agree(doc)
         button = agree_button(doc)

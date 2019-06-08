@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "icon_scraper/version"
 require "icon_scraper/page/terms_and_conditions"
 
@@ -5,6 +7,7 @@ require "mechanize"
 require "scraperwiki"
 require "active_support/core_ext/hash"
 
+# Scrape an icon application development system
 module IconScraper
   def self.scrape_and_save(authority)
     if authority == :coffs_harbour
@@ -12,8 +15,9 @@ module IconScraper
       agent.verify_mode = OpenSSL::SSL::VERIFY_NONE
 
       IconScraper.rest_xml(
-        "https://planningexchange.coffsharbour.nsw.gov.au/PortalProd/Pages/XC.Track/SearchApplication.aspx",
-        {d: "thisweek", k: "LodgementDate", o: "xml"},
+        "https://planningexchange.coffsharbour.nsw.gov.au/"\
+        "PortalProd/Pages/XC.Track/SearchApplication.aspx",
+        { d: "thisweek", k: "LodgementDate", o: "xml" },
         agent
       ) do |record|
         IconScraper.save(record)
@@ -34,11 +38,9 @@ module IconScraper
       agent = Mechanize.new
       doc = agent.get(url)
 
-      if Page::TermsAndConditions.on?(doc)
-        Page::TermsAndConditions.agree(doc)
-      end
+      Page::TermsAndConditions.agree(doc) if Page::TermsAndConditions.on?(doc)
 
-      params = {d: period, k: "LodgementDate", o: "xml"}
+      params = { d: period, k: "LodgementDate", o: "xml" }
       params[:t] = t.join(",") if t
 
       rest_xml(url, params, agent) do |record|
@@ -54,9 +56,9 @@ module IconScraper
     # Explicitly interpret as XML
     page = Nokogiri::XML(page.content)
 
-    raise "Can't find any <Application> elements" unless page.search('Application').length > 0
+    raise "Can't find any <Application> elements" unless page.search("Application").length.positive?
 
-    page.search('Application').each do |application|
+    page.search("Application").each do |application|
       council_reference = application.at("ReferenceNumber").inner_text
 
       unless application.at("Address Line1")
@@ -67,15 +69,12 @@ module IconScraper
       info_url = "#{base_url}?id=#{application_id}"
 
       address = clean_whitespace(application.at("Address Line1").inner_text)
-      if !application.at('Address Line2').inner_text.empty?
+      unless application.at("Address Line2").inner_text.empty?
         address += ", " + clean_whitespace(application.at("Address Line2").inner_text)
       end
 
-      if application.at("ApplicationDetails")
-        description = application.at("ApplicationDetails")
-      else
-        description = application.at("SubNatureOfApplication")
-      end
+      description = application.at("ApplicationDetails") ||
+                    application.at("SubNatureOfApplication")
 
       unless description
         puts "Skipping due to lack of description for #{council_reference}"
@@ -87,8 +86,8 @@ module IconScraper
         "description" => description.inner_text,
         "date_received" => Date.parse(application.at("LodgementDate").inner_text).to_s,
         # TODO: There can be multiple addresses per application
-        # We can't just create a new application for each address as we would then have multiple applications
-        # with the same council_reference which isn't currently allowed.
+        # We can't just create a new application for each address as we would then have multiple
+        # applications with the same council_reference which isn't currently allowed.
         "address" => address,
         "date_scraped" => Date.today.to_s,
         "info_url" => info_url
@@ -96,11 +95,11 @@ module IconScraper
       # DA03NY1 appears to be the event code for putting this application on exhibition
       # Commenting this out because I don't know whether this can be applied generally to all
       # councils. It seems likely that the event codes are different in each council
-      #e = application.search("Event EventCode").find{|e| e.inner_text.strip == "DA03NY1"}
-      #if e
-      #  record["on_notice_from"] = Date.parse(e.parent.at("LodgementDate").inner_text).to_s
-      #  record["on_notice_to"] = Date.parse(e.parent.at("DateDue").inner_text).to_s
-      #end
+      # e = application.search("Event EventCode").find{|e| e.inner_text.strip == "DA03NY1"}
+      # if e
+      #   record["on_notice_from"] = Date.parse(e.parent.at("LodgementDate").inner_text).to_s
+      #   record["on_notice_to"] = Date.parse(e.parent.at("DateDue").inner_text).to_s
+      # end
 
       yield record
     end
@@ -117,6 +116,6 @@ module IconScraper
 
   # Copied from lib_icon_rest_xml repo
   def self.clean_whitespace(string)
-    string.gsub("\r", ' ').gsub("\n", ' ').squeeze(" ").strip
+    string.gsub("\r", " ").gsub("\n", " ").squeeze(" ").strip
   end
 end
