@@ -50,7 +50,11 @@ RSpec.describe IconScraper do
       expect(results).to eq expected
     end
 
-    [:blue_mountains, :swan].each do |authority|
+    AUTHORITIES = [
+      :blue_mountains, :swan, :coffs_harbour
+    ].freeze
+
+    AUTHORITIES.each do |authority|
       it authority do
         test_scraper(authority)
       end

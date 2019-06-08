@@ -7,30 +7,43 @@ require "active_support/core_ext/hash"
 
 module IconScraper
   def self.scrape_and_save(authority)
-    if authority == :blue_mountains
-      url = "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx"
-      t = nil
-      period = "last14days"
-    elsif authority == :swan
-      url = "https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx"
-      t = [282, 281, 283]
-      period = "thisweek"
+    if authority == :coffs_harbour
+      agent = Mechanize.new
+      agent.verify_mode = OpenSSL::SSL::VERIFY_NONE
+
+      IconScraper.rest_xml(
+        "https://planningexchange.coffsharbour.nsw.gov.au/PortalProd/Pages/XC.Track/SearchApplication.aspx",
+        {d: "thisweek", k: "LodgementDate", o: "xml"},
+        agent
+      ) do |record|
+        IconScraper.save(record)
+      end
     else
-      raise "Unexpected authority: #{authority}"
-    end
+      if authority == :blue_mountains
+        url = "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx"
+        t = nil
+        period = "last14days"
+      elsif authority == :swan
+        url = "https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx"
+        t = [282, 281, 283]
+        period = "thisweek"
+      else
+        raise "Unexpected authority: #{authority}"
+      end
 
-    agent = Mechanize.new
-    doc = agent.get(url)
+      agent = Mechanize.new
+      doc = agent.get(url)
 
-    if Page::TermsAndConditions.on?(doc)
-      Page::TermsAndConditions.agree(doc)
-    end
+      if Page::TermsAndConditions.on?(doc)
+        Page::TermsAndConditions.agree(doc)
+      end
 
-    params = {d: period, k: "LodgementDate", o: "xml"}
-    params[:t] = t.join(",") if t
+      params = {d: period, k: "LodgementDate", o: "xml"}
+      params[:t] = t.join(",") if t
 
-    rest_xml(url, params, agent) do |record|
-      save(record)
+      rest_xml(url, params, agent) do |record|
+        save(record)
+      end
     end
   end
 
