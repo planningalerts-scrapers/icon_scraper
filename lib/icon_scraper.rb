@@ -20,13 +20,13 @@ module IconScraper
     elsif authority == :blue_mountains
       params = {
         url: "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx",
-        period: "last14days",
+        period: "last14days"
       }
     elsif authority == :swan
       params = {
         url: "https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx",
         types: [282, 281, 283],
-        period: "thisweek",
+        period: "thisweek"
       }
     else
       raise "Unexpected authority: #{authority}"
