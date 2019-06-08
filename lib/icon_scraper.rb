@@ -9,7 +9,7 @@ require "active_support/core_ext/hash"
 
 # Scrape an icon application development system
 module IconScraper
-  def self.scrape_and_save(authority)
+  def self.scrape(authority)
     if authority == :coffs_harbour
       agent = Mechanize.new
       agent.verify_mode = OpenSSL::SSL::VERIFY_NONE
@@ -44,8 +44,14 @@ module IconScraper
       params[:t] = t.join(",") if t
 
       rest_xml(url, params, agent) do |record|
-        save(record)
+        yield record
       end
+    end
+  end
+
+  def self.scrape_and_save(authority)
+    scrape(authority) do |record|
+      save(record)
     end
   end
 
