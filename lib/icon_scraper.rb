@@ -20,7 +20,7 @@ module IconScraper
         { d: "thisweek", k: "LodgementDate", o: "xml" },
         agent
       ) do |record|
-        IconScraper.save(record)
+        yield record
       end
     else
       if authority == :blue_mountains

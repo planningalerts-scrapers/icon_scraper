@@ -15,22 +15,20 @@ RSpec.describe IconScraper do
           "http://epb.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx",
           { d: "thisweek", k: "LodgementDate", t: "282,281,283", o: "xml" },
           agent
-        ) do |record|
-          IconScraper.save(record)
-        end
+        ) {}
       end
     end
   end
 
   describe ".scrape_and_save" do
     def test_scraper(authority)
-      File.delete("./data.sqlite") if File.exist?("./data.sqlite")
-
-      ScraperWiki.close_sqlite
-
       results = VCR.use_cassette(authority) do
         Timecop.freeze(Date.new(2019, 5, 15)) do
-          IconScraper.scrape_and_save(authority)
+          results = []
+          IconScraper.scrape(authority) do |record|
+            results << record
+          end
+          results.sort_by { |r| r["council_reference"] }
         end
       end
 
@@ -39,7 +37,6 @@ RSpec.describe IconScraper do
                  else
                    []
                  end
-      results = ScraperWiki.select("* from data order by council_reference")
 
       if results != expected
         # Overwrite expected so that we can compare with version control
