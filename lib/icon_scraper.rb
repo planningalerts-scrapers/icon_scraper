@@ -21,7 +21,7 @@ module IconScraper
       agent.verify_mode = OpenSSL::SSL::VERIFY_NONE
       doc = agent.get(url)
 
-      # Page::TermsAndConditions.agree(doc) if Page::TermsAndConditions.on?(doc)
+      Page::TermsAndConditions.agree(doc) if Page::TermsAndConditions.on?(doc)
     else
       if authority == :blue_mountains
         url = "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx"
