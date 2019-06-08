@@ -17,29 +17,23 @@ module IconScraper
             "PortalProd/Pages/XC.Track/SearchApplication.aspx"
       t = nil
       period = "last14days"
-
-      agent.verify_mode = OpenSSL::SSL::VERIFY_NONE
-      doc = agent.get(url)
-
-      Page::TermsAndConditions.agree(doc) if Page::TermsAndConditions.on?(doc)
+      ssl_verify = false
+    elsif authority == :blue_mountains
+      url = "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx"
+      t = nil
+      period = "last14days"
+      ssl_verify = true
+    elsif authority == :swan
+      url = "https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx"
+      t = [282, 281, 283]
+      period = "thisweek"
+      ssl_verify = true
     else
-      if authority == :blue_mountains
-        url = "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx"
-        t = nil
-        period = "last14days"
-      elsif authority == :swan
-        url = "https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx"
-        t = [282, 281, 283]
-        period = "thisweek"
-      else
-        raise "Unexpected authority: #{authority}"
-      end
-
-      doc = agent.get(url)
-
-      Page::TermsAndConditions.agree(doc) if Page::TermsAndConditions.on?(doc)
-
+      raise "Unexpected authority: #{authority}"
     end
+    agent.verify_mode = OpenSSL::SSL::VERIFY_NONE unless ssl_verify
+    doc = agent.get(url)
+    Page::TermsAndConditions.agree(doc) if Page::TermsAndConditions.on?(doc)
     params = { d: period, k: "LodgementDate", o: "xml" }
     params[:t] = t.join(",") if t
     rest_xml(url, params, agent) do |record|
