@@ -10,13 +10,16 @@ require "active_support/core_ext/hash"
 # Scrape an icon application development system
 module IconScraper
   def self.scrape(authority)
+    agent = Mechanize.new
+
     if authority == :coffs_harbour
-      agent = Mechanize.new
+      url = "https://planningexchange.coffsharbour.nsw.gov.au/"\
+            "PortalProd/Pages/XC.Track/SearchApplication.aspx"
       agent.verify_mode = OpenSSL::SSL::VERIFY_NONE
+      doc = agent.get(url)
 
       IconScraper.rest_xml(
-        "https://planningexchange.coffsharbour.nsw.gov.au/"\
-        "PortalProd/Pages/XC.Track/SearchApplication.aspx",
+        url,
         { d: "last14days", k: "LodgementDate", o: "xml" },
         agent
       ) do |record|
@@ -35,7 +38,6 @@ module IconScraper
         raise "Unexpected authority: #{authority}"
       end
 
-      agent = Mechanize.new
       doc = agent.get(url)
 
       Page::TermsAndConditions.agree(doc) if Page::TermsAndConditions.on?(doc)
