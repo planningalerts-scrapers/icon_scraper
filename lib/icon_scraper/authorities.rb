@@ -55,6 +55,10 @@ module IconScraper
       url: "http://portal.mosman.nsw.gov.au",
       period: "last14days",
       types: [8, 5]
+    },
+    north_sydney: {
+      url: "https://apptracking.northsydney.nsw.gov.au",
+      period: "last14days"
     }
   }.freeze
 end
