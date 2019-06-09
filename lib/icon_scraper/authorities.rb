@@ -32,6 +32,11 @@ module IconScraper
       url: "http://icon.gtcc.nsw.gov.au/eplanning",
       period: "last14days",
       types: [290]
+    },
+    hobart: {
+      url: "https://apply.hobartcity.com.au",
+      period: "last14days",
+      types: ["PLN"]
     }
   }.freeze
 end
