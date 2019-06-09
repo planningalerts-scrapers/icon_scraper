@@ -2,6 +2,7 @@
 
 require "icon_scraper/version"
 require "icon_scraper/page/terms_and_conditions"
+require "icon_scraper/authorities"
 
 require "mechanize"
 require "scraperwiki"
@@ -9,31 +10,6 @@ require "active_support/core_ext/hash"
 
 # Scrape an icon application development system
 module IconScraper
-  AUTHORITIES = {
-    gosford: {
-      url: "https://plan.gosford.nsw.gov.au",
-      period: "last14days"
-    },
-    cumberland: {
-      url: "http://eplanning.cumberland.nsw.gov.au",
-      period: "last14days"
-    },
-    coffs_harbour: {
-      url: "https://planningexchange.coffsharbour.nsw.gov.au/PortalProd",
-      period: "last14days",
-      ssl_verify: false
-    },
-    blue_mountains: {
-      url: "https://www2.bmcc.nsw.gov.au/DATracking",
-      period: "last14days"
-    },
-    swan: {
-      url: "https://elodge.swan.wa.gov.au",
-      types: [282, 281, 283],
-      period: "thisweek"
-    }
-  }.freeze
-
   def self.scrape(authority)
     params = AUTHORITIES[authority]
     raise "Unexpected authority: #{authority}" if params.nil?
