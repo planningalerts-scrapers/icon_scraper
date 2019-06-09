@@ -49,11 +49,7 @@ RSpec.describe IconScraper do
       expect(results).to eq expected
     end
 
-    AUTHORITIES = %i[
-      blue_mountains swan coffs_harbour cumberland gosford
-    ].freeze
-
-    AUTHORITIES.each do |authority|
+    IconScraper::AUTHORITIES.keys.each do |authority|
       it authority do
         test_scraper(authority)
       end
