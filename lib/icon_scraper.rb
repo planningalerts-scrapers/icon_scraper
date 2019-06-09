@@ -10,7 +10,12 @@ require "active_support/core_ext/hash"
 # Scrape an icon application development system
 module IconScraper
   def self.scrape(authority)
-    if authority == :cumberland
+    if authority == :gosford
+      params = {
+        url: "https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx",
+        period: "last14days"
+      }
+    elsif authority == :cumberland
       params = {
         url: "http://eplanning.cumberland.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx",
         period: "last14days"
