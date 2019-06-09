@@ -46,6 +46,10 @@ module IconScraper
       url: "http://www.eservices.lmc.nsw.gov.au/ApplicationTracking",
       period: "last14days",
       types: [161]
+    },
+    liverpool: {
+      url: "https://eplanning.liverpool.nsw.gov.au",
+      period: "last14days"
     }
   }.freeze
 end
