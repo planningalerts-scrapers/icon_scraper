@@ -23,6 +23,10 @@ module IconScraper
       url: "https://elodge.swan.wa.gov.au",
       types: [282, 281, 283],
       period: "thisweek"
+    },
+    gosnells: {
+      url: "http://apps.gosnells.wa.gov.au/ICON",
+      period: "last14days"
     }
   }.freeze
 end
