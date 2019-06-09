@@ -8,6 +8,8 @@ module IconScraper
         button = agree_button(doc)
         raise "Can't find agree button" if button.nil?
 
+        # If there's a checkbox, check it
+        doc.form.checkbox_with(name: /Agree/)&.check
         doc.form.submit(button)
       end
 
