@@ -37,6 +37,10 @@ module IconScraper
       url: "https://apply.hobartcity.com.au",
       period: "last14days",
       types: ["PLN"]
+    },
+    hornsby: {
+      url: "http://hscenquiry.hornsby.nsw.gov.au",
+      period: "last14days"
     }
   }.freeze
 end
