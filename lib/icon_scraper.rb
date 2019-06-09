@@ -12,29 +12,28 @@ module IconScraper
   def self.scrape(authority)
     if authority == :gosford
       params = {
-        url: "https://plan.gosford.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx",
+        url: "https://plan.gosford.nsw.gov.au",
         period: "last14days"
       }
     elsif authority == :cumberland
       params = {
-        url: "http://eplanning.cumberland.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx",
+        url: "http://eplanning.cumberland.nsw.gov.au",
         period: "last14days"
       }
     elsif authority == :coffs_harbour
       params = {
-        url: "https://planningexchange.coffsharbour.nsw.gov.au/"\
-             "PortalProd/Pages/XC.Track/SearchApplication.aspx",
+        url: "https://planningexchange.coffsharbour.nsw.gov.au/PortalProd",
         period: "last14days",
         ssl_verify: false
       }
     elsif authority == :blue_mountains
       params = {
-        url: "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track/SearchApplication.aspx",
+        url: "https://www2.bmcc.nsw.gov.au/DATracking",
         period: "last14days"
       }
     elsif authority == :swan
       params = {
-        url: "https://elodge.swan.wa.gov.au/Pages/XC.Track/SearchApplication.aspx",
+        url: "https://elodge.swan.wa.gov.au",
         types: [282, 281, 283],
         period: "thisweek"
       }
@@ -47,6 +46,8 @@ module IconScraper
   end
 
   def self.scrape_with_params(url:, period:, types: nil, ssl_verify: true)
+    url += "/Pages/XC.Track/SearchApplication.aspx"
+
     agent = Mechanize.new
     agent.verify_mode = OpenSSL::SSL::VERIFY_NONE unless ssl_verify
     doc = agent.get(url)
