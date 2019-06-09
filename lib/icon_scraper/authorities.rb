@@ -64,6 +64,11 @@ module IconScraper
       url: "https://eservices.northernbeaches.nsw.gov.au/ePlanning/live/Public",
       period: "last14days",
       types: ["DevApp"]
+    },
+    penrith: {
+      url: "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages",
+      period: "thismonth",
+      types: %w[DA DevApp]
     }
   }.freeze
 end
