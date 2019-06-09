@@ -50,6 +50,11 @@ module IconScraper
     liverpool: {
       url: "https://eplanning.liverpool.nsw.gov.au",
       period: "last14days"
+    },
+    mosman: {
+      url: "http://portal.mosman.nsw.gov.au",
+      period: "last14days",
+      types: [8, 5]
     }
   }.freeze
 end
