@@ -71,7 +71,13 @@ module IconScraper
         next
       end
       application_id = application.at("ApplicationId").inner_text
+
+      # No idea what this means but it's required to calculate the
+      # correct info_url
+      pprs = application.at("ThePPRS")&.inner_text
+
       info_url = "#{base_url}?id=#{application_id}"
+      info_url += "&pprs=#{pprs}" if pprs
 
       address = clean_whitespace(application.at("Address Line1").inner_text)
       unless application.at("Address Line2").inner_text.empty?
