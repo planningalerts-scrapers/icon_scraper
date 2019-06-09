@@ -24,6 +24,11 @@ module IconScraper
 
     agent = Mechanize.new
     agent.verify_mode = OpenSSL::SSL::VERIFY_NONE unless ssl_verify
+    # Hardcode special handling for weird content encoding server setting for gosnells
+    agent.content_encoding_hooks << lambda { |_httpagent, _uri, response, _body_io|
+      response["content-encoding"] = "gzip" if response["content-encoding"] == "gzip,gzip"
+    }
+
     doc = agent.get(url)
     Page::TermsAndConditions.agree(doc) if Page::TermsAndConditions.on?(doc)
     params = { d: period, k: "LodgementDate", o: "xml" }
