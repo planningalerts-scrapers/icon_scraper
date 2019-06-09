@@ -27,6 +27,11 @@ module IconScraper
     gosnells: {
       url: "http://apps.gosnells.wa.gov.au/ICON",
       period: "last14days"
+    },
+    greater_taree: {
+      url: "http://icon.gtcc.nsw.gov.au/eplanning",
+      period: "last14days",
+      types: [290]
     }
   }.freeze
 end
