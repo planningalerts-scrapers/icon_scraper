@@ -50,7 +50,7 @@ RSpec.describe IconScraper do
     end
 
     AUTHORITIES = %i[
-      blue_mountains swan coffs_harbour
+      blue_mountains swan coffs_harbour cumberland
     ].freeze
 
     AUTHORITIES.each do |authority|
