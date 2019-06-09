@@ -41,6 +41,11 @@ module IconScraper
     hornsby: {
       url: "http://hscenquiry.hornsby.nsw.gov.au",
       period: "last14days"
+    },
+    leichhardt: {
+      url: "http://www.eservices.lmc.nsw.gov.au/ApplicationTracking",
+      period: "last14days",
+      types: [161]
     }
   }.freeze
 end
