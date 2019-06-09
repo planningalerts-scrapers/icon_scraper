@@ -17,7 +17,7 @@ module IconScraper
       end
 
       def self.agree_button(doc)
-        doc.form.button_with(value: "I Agree")
+        doc.form.button_with(value: /Agree/)
       end
     end
   end
