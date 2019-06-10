@@ -74,6 +74,14 @@ module IconScraper
       url: "http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced",
       period: "last14days",
       types: [217]
+    },
+    redland: {
+      url: "http://pdonline.redland.qld.gov.au/Pages/XC.Track",
+      period: "last14days",
+      types: %w[
+        BD BW BA MC MCU OPW BWP APS
+        MCSS OP EC SB SBSS PD BX ROL QRAL
+      ]
     }
   }.freeze
 end
