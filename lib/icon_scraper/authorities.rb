@@ -91,6 +91,11 @@ module IconScraper
     scenic_rim: {
       url: "https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track",
       period: "last28days"
+    },
+    waverley: {
+      url: "http://eservices.waverley.nsw.gov.au/Pages/XC.Track",
+      period: "last14days",
+      types: %w[A0 SP2A TPO B1 B1A FPS]
     }
   }.freeze
 end
