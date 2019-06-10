@@ -20,7 +20,7 @@ module IconScraper
   end
 
   def self.scrape_with_params(url:, period:, types: nil, ssl_verify: true)
-    url += "/XC.Track/SearchApplication.aspx"
+    url += "/SearchApplication.aspx"
 
     agent = Mechanize.new
     agent.verify_mode = OpenSSL::SSL::VERIFY_NONE unless ssl_verify
