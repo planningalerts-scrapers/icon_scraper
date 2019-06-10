@@ -96,6 +96,16 @@ module IconScraper
       url: "http://eservices.waverley.nsw.gov.au/Pages/XC.Track",
       period: "last14days",
       types: %w[A0 SP2A TPO B1 B1A FPS]
+    },
+    willoughby: {
+      url: "https://eplanning.willoughby.nsw.gov.au/pages/xc.track",
+      period: "last90days",
+      types: [
+        "da01", "da01a", "da02a", "da03", "da05", "da06", "da07",
+        "da10", "s96", "cc01a", "cc01b", "cc03", "cc04", "cd01a",
+        "cd01b", "cd02", "cd04", "bcertu", "bcertr", "bcertc",
+        "tvpa", "tvpa 2", "tvpa r"
+      ]
     }
   }.freeze
 end
