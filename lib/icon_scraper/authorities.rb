@@ -106,6 +106,10 @@ module IconScraper
         "cd01b", "cd02", "cd04", "bcertu", "bcertr", "bcertc",
         "tvpa", "tvpa 2", "tvpa r"
       ]
+    },
+    canada_bay: {
+      url: "http://datracking.canadabay.nsw.gov.au/Pages/XC.Track",
+      period: "last14days"
     }
   }.freeze
 end
