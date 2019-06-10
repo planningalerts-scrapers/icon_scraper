@@ -69,6 +69,11 @@ module IconScraper
       url: "http://bizsearch.penrithcity.nsw.gov.au/ePlanning/Pages/XC.Track",
       period: "thismonth",
       types: %w[DA DevApp]
+    },
+    randwick: {
+      url: "http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced",
+      period: "last14days",
+      types: [217]
     }
   }.freeze
 end
