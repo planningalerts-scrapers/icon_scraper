@@ -82,6 +82,11 @@ module IconScraper
         BD BW BA MC MCU OPW BWP APS
         MCSS OP EC SB SBSS PD BX ROL QRAL
       ]
+    },
+    rockdale: {
+      url: "http://rccweb.rockdale.nsw.gov.au/EPlanning/Pages/XC.Track",
+      period: "last14days",
+      types: [217]
     }
   }.freeze
 end
