@@ -87,6 +87,10 @@ module IconScraper
       url: "http://rccweb.rockdale.nsw.gov.au/EPlanning/Pages/XC.Track",
       period: "last14days",
       types: [217]
+    },
+    scenic_rim: {
+      url: "https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track",
+      period: "last28days"
     }
   }.freeze
 end
