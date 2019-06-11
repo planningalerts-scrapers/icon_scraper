@@ -110,6 +110,11 @@ module IconScraper
     canada_bay: {
       url: "http://datracking.canadabay.nsw.gov.au/Pages/XC.Track",
       period: "last14days"
+    },
+    tweed: {
+      url: "https://s1.tweed.nsw.gov.au/Pages/XC.Track",
+      period: "thismonth",
+      types: %w[DA CDC]
     }
   }.freeze
 end
