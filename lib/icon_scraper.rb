@@ -19,11 +19,13 @@ module IconScraper
     end
   end
 
-  def self.scrape_with_params(url:, period:, types: nil, ssl_verify: true)
+  def self.scrape_with_params(url:, period:, types: nil, ssl_verify: true, proxy: false)
     url += "/SearchApplication.aspx"
 
     agent = Mechanize.new
     agent.verify_mode = OpenSSL::SSL::VERIFY_NONE unless ssl_verify
+    agent.set_proxy(ENV["MORPH_PROXY_HOST"], ENV["MORPH_PROXY_PORT"].to_i) if proxy
+
     # Hardcode special handling for weird content encoding server setting for gosnells
     agent.content_encoding_hooks << lambda { |_httpagent, _uri, response, _body_io|
       response["content-encoding"] = "gzip" if response["content-encoding"] == "gzip,gzip"
