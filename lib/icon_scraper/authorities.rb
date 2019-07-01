@@ -13,8 +13,7 @@ module IconScraper
     coffs_harbour: {
       url: "https://planningexchange.coffsharbour.nsw.gov.au/PortalProd/Pages/XC.Track",
       period: "last14days",
-      ssl_verify: false,
-      proxy: true
+      ssl_verify: false
     },
     blue_mountains: {
       url: "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track",
