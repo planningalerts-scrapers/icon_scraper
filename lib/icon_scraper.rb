@@ -53,9 +53,11 @@ module IconScraper
     # Explicitly interpret as XML
     page = Nokogiri::XML(page.content)
 
-    raise "Can't find any <Application> elements" unless page.search("Application").length.positive?
+    root = page.at("NewDataSet")
 
-    page.search("Application").each do |application|
+    raise "Can't find <NewDataSet> element" if root.nil?
+
+    root.search("Application").each do |application|
       council_reference = application.at("ReferenceNumber").inner_text
 
       unless application.at("Address Line1")
