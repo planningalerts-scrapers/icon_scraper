@@ -115,6 +115,11 @@ module IconScraper
       url: "https://s1.tweed.nsw.gov.au/Pages/XC.Track",
       period: "thismonth",
       types: %w[DA CDC]
+    },
+    boroondara: {
+      url: "https://eservices.boroondara.vic.gov.au/EPlanning/Pages/XC.Track",
+      period: "thismonth",
+      types: %w[PlnPermit PlnPostPer]
     }
   }.freeze
 end

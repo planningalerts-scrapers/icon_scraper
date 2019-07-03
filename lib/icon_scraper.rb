@@ -32,7 +32,7 @@ module IconScraper
     }
 
     doc = agent.get(url)
-    Page::TermsAndConditions.agree(doc) if Page::TermsAndConditions.on?(doc)
+    Page::TermsAndConditions.agree(doc, agent) if Page::TermsAndConditions.on?(doc)
     params = { d: period, k: "LodgementDate", o: "xml" }
     params[:t] = types.join(",") if types
     rest_xml(url, params, agent) do |record|
