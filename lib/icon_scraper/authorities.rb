@@ -2,6 +2,10 @@
 
 module IconScraper
   AUTHORITIES = {
+    greater_hume: {
+      url: "http://datracker.greaterhume.nsw.gov.au/Pages/XC.Track",
+      period: "last28days"
+    },
     richmond_valley: {
       url: "http://datracker.richmondvalley.nsw.gov.au/Pages/XC.Track",
       period: "last28days"
