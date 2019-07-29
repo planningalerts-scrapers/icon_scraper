@@ -2,6 +2,11 @@
 
 module IconScraper
   AUTHORITIES = {
+    central_highlands: {
+      url: "https://track.chrc.qld.gov.au/Pages/XC.Track",
+      period: "last28days",
+      types: [205, 400, 401, 402, 403, 405]
+    },
     whitsunday: {
       url: "http://eplanning.whitsundayrc.qld.gov.au/Pages/XC.Track",
       period: "last28days"
