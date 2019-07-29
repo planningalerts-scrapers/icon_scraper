@@ -96,7 +96,9 @@
   date_scraped: '2019-05-15'
   info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586594
 - council_reference: CCP/2019/150
-  description: "MBC2119\nAlterations and additions to existing dwelling-house. \n"
+  description: |-
+    MBC2119
+    Alterations and additions to existing dwelling-house.
   date_received: '2019-05-29'
   address: 13 Datchett Street BALMAIN EAST NSW 2041
   date_scraped: '2019-05-15'
@@ -118,11 +120,9 @@
   date_scraped: '2019-05-15'
   info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586667
 - council_reference: CCP/2019/153
-  description: 'NW19/4494/1 CCP/2019/153 Demolition of existing dwelling and construction
+  description: NW19/4494/1 CCP/2019/153 Demolition of existing dwelling and construction
     of new two storey dwelling with detached double garage accessed from Pritchard
     Lane
-
-'
   date_received: '2019-05-30'
   address: 48 Pritchard Street ANNANDALE NSW 2038
   date_scraped: '2019-05-15'
@@ -379,11 +379,10 @@
   date_scraped: '2019-05-15'
   info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=587061
 - council_reference: D/2019/215
-  description: |+
+  description: |-
     Partial demo of existing single storey lean-to
     Ground & first floor alterations and additions to the existing two storey dwelling
     Associated bpundary fances & rear gate
-
   date_received: '2019-06-07'
   address: 21 Lamb Street LILYFIELD NSW 2040
   date_scraped: '2019-05-15'
@@ -420,9 +419,9 @@
   date_scraped: '2019-05-15'
   info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586644
 - council_reference: M/2019/103
-  description: "Modification of BA 87/941 seeking to delete amend and delete conditions
+  description: Modification of BA 87/941 seeking to delete amend and delete conditions
     pertaining to required privacy mitigation measures to the first floor east facing
-    window. \n\n"
+    window.
   date_received: '2019-06-03'
   address: 2 Wharf Road BIRCHGROVE NSW 2041
   date_scraped: '2019-05-15'
@@ -628,7 +627,7 @@
   date_scraped: '2019-05-15'
   info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586633
 - council_reference: PCAP/2019/219
-  description: "Alterations and additions to existing dwelling-house. \n"
+  description: Alterations and additions to existing dwelling-house.
   date_received: '2019-05-29'
   address: 13 Datchett Street BALMAIN EAST NSW 2041
   date_scraped: '2019-05-15'
@@ -662,10 +661,8 @@
   date_scraped: '2019-05-15'
   info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586704
 - council_reference: PCAP/2019/224
-  description: 'Demolition of existing dwelling and construction of new two storey
+  description: Demolition of existing dwelling and construction of new two storey
     dwelling with detached double garage accessed from Pritchard Lane
-
-'
   date_received: '2019-05-30'
   address: 48 Pritchard Street ANNANDALE NSW 2038
   date_scraped: '2019-05-15'
@@ -733,7 +730,7 @@
   date_scraped: '2019-05-15'
   info_url: http://www.eservices.lmc.nsw.gov.au/ApplicationTracking/Pages/XC.Track/SearchApplication.aspx?id=586574
 - council_reference: PREDA/2019/86
-  description: |
+  description: |-
     MINOR DEMOLITION
     MINOR ALTERATIONS + ADDITIONS
     REPAIRS + MAINTENANCE

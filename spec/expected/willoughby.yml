@@ -737,7 +737,7 @@
   date_scraped: '2019-05-15'
   info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=490563
 - council_reference: CD-2019/148
-  description: " RESIDENTIAL -Boundary adjustment or rectification of an encroachment"
+  description: RESIDENTIAL -Boundary adjustment or rectification of an encroachment
   date_received: '2019-05-13'
   address: 29 Baringa Road NORTHBRIDGE NSW 2063.
   date_scraped: '2019-05-15'
@@ -834,10 +834,8 @@
   date_scraped: '2019-05-15'
   info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=489281
 - council_reference: CD-2019/98
-  description: 'Demolition of existing dwelling and construction of a new two storey
+  description: Demolition of existing dwelling and construction of a new two storey
     dwelling.
-
-'
   date_received: '2019-03-20'
   address: 11 Deepwater Road CASTLE COVE NSW 2069.
   date_scraped: '2019-05-15'
@@ -2234,10 +2232,8 @@
   date_scraped: '2019-05-15'
   info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=489965
 - council_reference: TVPA-2019/161
-  description: 'Refusal to remove two (2) located in front garden/ NE courtyard and
+  description: Refusal to remove two (2) located in front garden/ NE courtyard and
     within decking on western side of house.
-
-'
   date_received: '2019-05-08'
   address: 48A Eddy Road CHATSWOOD NSW 2067.
   date_scraped: '2019-05-15'
@@ -2526,10 +2522,8 @@
   date_scraped: '2019-05-15'
   info_url: https://eplanning.willoughby.nsw.gov.au/pages/xc.track/SearchApplication.aspx?id=488564
 - council_reference: TVPA-2019/97
-  description: 'Refusal to remove refuses consent to one (1) tree located in rear
-    garden on lower rock outcrops.
-
-'
+  description: Refusal to remove refuses consent to one (1) tree located in rear garden
+    on lower rock outcrops.
   date_received: '2019-03-14'
   address: 9 Rembrandt Drive MIDDLE COVE NSW 2068.
   date_scraped: '2019-05-15'

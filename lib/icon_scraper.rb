@@ -90,7 +90,7 @@ module IconScraper
         "council_reference" => council_reference,
         # It looks like descriptions are entity encoded twice over (for example
         # & is encoded as &amp;amp;)
-        "description" => CGI.unescapeHTML(description.inner_text),
+        "description" => CGI.unescapeHTML(description.inner_text).strip,
         "date_received" => Date.parse(application.at("LodgementDate").inner_text).to_s,
         # TODO: There can be multiple addresses per application
         # We can't just create a new application for each address as we would then have multiple

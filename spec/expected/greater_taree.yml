@@ -30,9 +30,7 @@
   date_scraped: '2019-05-15'
   info_url: http://icon.gtcc.nsw.gov.au/eplanning/Pages/XC.Track/SearchApplication.aspx?id=327079
 - council_reference: 498/2019/DA
-  description: 'Demolition of Existing Dwelling and Construction of Two Storey Dwelling
-
-'
+  description: Demolition of Existing Dwelling and Construction of Two Storey Dwelling
   date_received: '2019-05-28'
   address: 330 Cowans Lane, Oxley Island NSW 2430
   date_scraped: '2019-05-15'
@@ -98,7 +96,7 @@
   date_scraped: '2019-05-15'
   info_url: http://icon.gtcc.nsw.gov.au/eplanning/Pages/XC.Track/SearchApplication.aspx?id=327282
 - council_reference: 509/2019/DA
-  description: "Residential Alterations and Additions \n"
+  description: Residential Alterations and Additions
   date_received: '2019-06-05'
   address: 15 Huntress Street, Harrington NSW 2427
   date_scraped: '2019-05-15'
@@ -146,9 +144,7 @@
   date_scraped: '2019-05-15'
   info_url: http://icon.gtcc.nsw.gov.au/eplanning/Pages/XC.Track/SearchApplication.aspx?id=327369
 - council_reference: 517/2019/DA
-  description: 'Secondary Dwelling
-
-'
+  description: Secondary Dwelling
   date_received: '2019-06-06'
   address: 59 Oakview Drive, Hallidays Point NSW 2430
   date_scraped: '2019-05-15'
