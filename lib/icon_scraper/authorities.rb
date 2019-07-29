@@ -2,6 +2,10 @@
 
 module IconScraper
   AUTHORITIES = {
+    whitsunday: {
+      url: "http://eplanning.whitsundayrc.qld.gov.au/Pages/XC.Track",
+      period: "last28days"
+    },
     gosford: {
       url: "https://plan.gosford.nsw.gov.au/Pages/XC.Track",
       period: "last14days"
