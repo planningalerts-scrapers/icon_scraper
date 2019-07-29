@@ -68,7 +68,7 @@ module IconScraper
 
       # No idea what this means but it's required to calculate the
       # correct info_url
-      pprs = application.at("ThePPRS")&.inner_text
+      pprs = application.at("ThePPRS")&.inner_text&.strip
 
       info_url = "#{base_url}?id=#{application_id}"
       info_url += "&pprs=#{pprs}" if pprs
