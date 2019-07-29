@@ -2,6 +2,10 @@
 
 module IconScraper
   AUTHORITIES = {
+    kyogle: {
+      url: "https://etrack.kyogle.nsw.gov.au/Pages/XC.Track",
+      period: "last28days"
+    },
     greater_hume: {
       url: "http://datracker.greaterhume.nsw.gov.au/Pages/XC.Track",
       period: "last28days"
