@@ -2,6 +2,10 @@
 
 module IconScraper
   AUTHORITIES = {
+    richmond_valley: {
+      url: "http://datracker.richmondvalley.nsw.gov.au/Pages/XC.Track",
+      period: "last28days"
+    },
     central_highlands: {
       url: "https://track.chrc.qld.gov.au/Pages/XC.Track",
       period: "last28days",
