@@ -64,7 +64,7 @@ module IconScraper
         puts "Skipping due to lack of address for #{council_reference}"
         next
       end
-      application_id = application.at("ApplicationId").inner_text
+      application_id = application.at("ApplicationId").inner_text.strip
 
       # No idea what this means but it's required to calculate the
       # correct info_url
