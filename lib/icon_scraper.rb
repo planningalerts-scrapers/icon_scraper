@@ -58,7 +58,7 @@ module IconScraper
     raise "Can't find <NewDataSet> element" if root.nil?
 
     root.search("Application").each do |application|
-      council_reference = application.at("ReferenceNumber").inner_text
+      council_reference = application.at("ReferenceNumber").inner_text.strip
 
       unless application.at("Address Line1")
         puts "Skipping due to lack of address for #{council_reference}"
