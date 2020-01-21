@@ -24,8 +24,9 @@ module IconScraper
       period: "last28days"
     },
     gosford: {
-      url: "https://plan.gosford.nsw.gov.au/Pages/XC.Track",
-      period: "last14days"
+      url: "https://plan.s.centralcoast.nsw.gov.au/Pages/XC.Track",
+      period: "last14days",
+      ssl_verify: false
     },
     cumberland: {
       url: "http://eplanning.cumberland.nsw.gov.au/Pages/XC.Track",
