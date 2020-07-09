@@ -2,6 +2,10 @@
 
 module IconScraper
   AUTHORITIES = {
+    georges_river: {
+      url: "https://etrack.georgesriver.nsw.gov.au/Pages/XC.Track",
+      period: "thismonth"
+    },
     kyogle: {
       url: "https://etrack.kyogle.nsw.gov.au/Pages/XC.Track",
       period: "last28days"
@@ -106,8 +110,8 @@ module IconScraper
       ]
     },
     rockdale: {
-      url: "http://rccweb.rockdale.nsw.gov.au/EPlanning/Pages/XC.Track",
-      period: "last14days",
+      url: "https://eplanning.bayside.nsw.gov.au/ePlanning/Pages/XC.Track",
+      period: "thismonth",
       types: [217]
     },
     scenic_rim: {
