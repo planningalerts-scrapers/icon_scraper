@@ -88,7 +88,7 @@ module IconScraper
       types: %w[DA DevApp]
     },
     randwick: {
-      url: "http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced",
+      url: "https://planning.randwick.nsw.gov.au/pages/xc.track.advanced",
       period: "last14days",
       types: [217]
     },

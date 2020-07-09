@@ -1,473 +1,338 @@
 ---
-- council_reference: DA/178/2018A
-  description: 'Modification of approved development including additional storage
-    area in basement, new sliding gate to driveway, increase in height of northern
-    section of front boundary wall. Original consent: Demolition of existing dwelling
-    and construction of a new two/three storey dwelling, swimming pool and cabana.'
-  date_received: '2019-06-04'
-  address: 7 Undine Street MAROUBRA NSW 2035
+- council_reference: DA/146/2017/A
+  description: 'S4.55(2) Modification Application to approved development including
+    alterations and additions to extend floor area at second floor levels, enlarged
+    swimming pools and reduced decking. Original Consent: Demolition of the existing
+    structures, construction of a 3 storey attached dual occupancy with garages to
+    front, spa pools to rear, landscaping and associated works (variation to floor
+    space ratio control).'
+  date_received: '2020-06-26'
+  address: 26 Dwyer Avenue LITTLE BAY NSW 2036
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646257
-- council_reference: DA/270/2016A
-  description: 'Modification of approved development including upgrades to existing
-    basement, installation of new bathroom and windows in basement including installation
-    of a bar, and associated works. Original consent: Alterations and additions to
-    the existing semi-detached dwelling including new first floor addition, garage,
-    front carport and rear swimming pool.'
-  date_received: '2019-05-27'
-  address: 238 Carrington Road RANDWICK NSW 2031
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=686984
+- council_reference: DA/27/2020/B
+  description: 'Section 4.55 modification of approved development. Original consent:
+    Demolition of existing single garage and construction of a new garage within the
+    same location forward of front façade (Heritage Item).'
+  date_received: '2020-07-06'
+  address: 27 Goorawahl Avenue LA PEROUSE NSW 2036
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645624
-- council_reference: DA/285/2019
-  description: Ground level addition to western side of existing dwelling.
-  date_received: '2019-05-27'
-  address: 35 Moorina Avenue MATRAVILLE NSW 2036
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=688528
+- council_reference: DA/291/2020
+  description: Demolition of existing structures and contruction of a two storey attached
+    dual occupancy with a plunge pool to each dwelling (variation to FSR control).
+  date_received: '2020-06-25'
+  address: 29 Nix Avenue MALABAR NSW 2036
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645660
-- council_reference: DA/286/2019
-  description: Alterations and additions to the existing boarding house including
-    construction of a passenger lift, rooftop landscaping to existing communal space,
-    landscaping and pedestrian access works at ground floor, alterations at basement
-    level, new medical centre at ground floor, and associated works (variation to
-    building height at floor space ratio controls).
-  date_received: '2019-05-27'
-  address: 161-165 Bunnerong Road KINGSFORD NSW 2032
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=686424
+- council_reference: DA/292/2020
+  description: Extensive alterations and additions to existing dwelling house, including
+    extensive demolition and retention of some lower ground floor walls, lower ground
+    floor extension, demolition of entire ground floor and roof, and construction
+    of a new ground floor that extends out to the rear, addition of a pool and decking
+    in the rear, excavation, landscaping and associated works.
+  date_received: '2020-06-25'
+  address: 38 Pauling Avenue COOGEE NSW 2034
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645730
-- council_reference: DA/287/2019
-  description: Removal of existing swimming pool, construction of a new pool to rear
-    of existing dwelling, landscaping, changes to fencing and associated works (Heritage
-    Conservation Area).
-  date_received: '2019-05-28'
-  address: 7 Lenthall Street KENSINGTON NSW 2033
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=686553
+- council_reference: DA/293/2020
+  description: Alterations and additions to rear of existing dwelling, including new
+    elevator (lift) and in-ground swimming pool.
+  date_received: '2020-06-26'
+  address: 11 Mermaid Avenue MAROUBRA NSW 2035
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645782
-- council_reference: DA/288/2019
-  description: Construction of a swimming pool, landscaping and retaining with associated
-    works to rear of existing dwelling.
-  date_received: '2019-05-30'
-  address: 58 Ritchard Avenue COOGEE NSW 2034
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=686123
+- council_reference: DA/294/2020
+  description: Torrens title subdivision of existing dual occupancy into two lots.
+  date_received: '2020-06-26'
+  address: 122 Bilga Crescent MALABAR NSW 2036
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645997
-- council_reference: DA/289/2019
-  description: Removal of existing pool and spa and construction of a new pool with
-    decking, landscaping and associated works.
-  date_received: '2019-05-30'
-  address: 28 Eastbourne Avenue CLOVELLY NSW 2031
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646001
-- council_reference: DA/290/2019
-  description: Tree DA - Pruning overhanging branches of tree located at 6 Milroy
-    Ave
-  date_received: '2019-05-30'
-  address: 4 Milroy Avenue KENSINGTON NSW 2033
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646002
-- council_reference: DA/291/2019
-  description: Torrens title subdivision of an existing approved dual occupancy.
-  date_received: '2019-05-30'
-  address: 9-9A Zions Avenue MALABAR NSW 2036
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646042
-- council_reference: DA/292/2019
-  description: Demolition of existing structures, construction of 3 storey attached
-    dual occupancy plus car lift, swimming pools to rear, landscaping and associated
-    works (variation to height control).
-  date_received: '2019-05-31'
-  address: 285 Malabar Road MAROUBRA NSW 2035
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646047
-- council_reference: DA/293/2019
-  description: Demolition of existing garage, ground and first floor alterations and
-    additions to existing dwelling, construction of new garage adjacent to northern
-    boundary, decking and awning to rear with associated works (Heritage conservation
-    area).
-  date_received: '2019-05-31'
-  address: 30 Virginia Street KENSINGTON NSW 2033
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646056
-- council_reference: DA/294/2019
-  description: Use of existing garage roof as balcony, construction of roof over balcony
-    plus privacy screens and balustrades with associated works.
-  date_received: '2019-05-31'
-  address: 20 Yarra Road PHILLIP BAY NSW 2036
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646074
-- council_reference: DA/295/2019
-  description: Relocation of existing shed adjacent to rear boundary, construction
-    of swimming pool to rear of existing dwelling, landscaping, fencing and associated
-    works.
-  date_received: '2019-06-03'
-  address: 8 Nolan Avenue CLOVELLY NSW 2031
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646093
-- council_reference: DA/296/2019
-  description: Construction of shade sail over part of existing playground.
-  date_received: '2019-06-03'
-  address: 2-10R Brompton Road KENSINGTON NSW 2033
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646108
-- council_reference: DA/297/2019
-  description: Construction of swimming pool, landscaping and associated works to
-    rear of existing dwelling (Heritage Conservation Area).
-  date_received: '2019-06-03'
-  address: 18 Dangar Street RANDWICK NSW 2031
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645758
-- council_reference: DA/298/2019
-  description: Alterations and additions to existing building at ground, first, second
-    and third floor levels with conversion to a dwelling, construction of garage to
-    front, swimming pool with landscaping and cabana at level 1 with associated works.
-  date_received: '2019-06-03'
-  address: 302 Clovelly Road CLOVELLY NSW 2031
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645828
-- council_reference: DA/299/2019
-  description: Demolition of existing structures and construction of a part 2 and
-    part 3 storey dwelling with rooftop terrace, semi-basement garage, swimming pool,
-    landscaping & associated site works.
-  date_received: '2019-06-03'
-  address: 74 Dudley Street COOGEE NSW 2034
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646007
-- council_reference: DA/300/2019
-  description: Installation of a new electricity substation within Shop 6 of the existing
-    commercial tenancy fronting Mason Street, including partial removal of awning,
-    new masonry wall and vent panels.
-  date_received: '2019-06-06'
-  address: 103 Mason Street MAROUBRA NSW 2035
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646035
-- council_reference: DA/301/2019
-  description: Torrens title subdivision of approved dual occupancy.
-  date_received: '2019-06-04'
-  address: 39 Eyre Street CHIFLEY NSW 2036
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646327
-- council_reference: DA/302/2019
-  description: Footway dining area for 7 tables and 21 chairs to front of Ritz Cinema
-    with hours of 9:00am to midnight Monday to Saturday and 9:00am to 10:00pm Sunday.
-  date_received: '2019-06-04'
-  address: 39-47 St Pauls Street RANDWICK NSW 2031
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646329
-- council_reference: DA/304/2019
-  description: Alterations and additions to existing dwelling at lower ground, ground
-    and first floor levels, landscaping, new external stairs, bin area and associated
-    works.
-  date_received: '2019-06-05'
-  address: 28 Gregory Street SOUTH COOGEE NSW 2034
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646391
-- council_reference: DA/305/2019
-  description: Demolition of existing dwelling and construction of a new dwelling
-    including vehicle crossing.
-  date_received: '2019-06-05'
-  address: 43-45 Endeavour Avenue LA PEROUSE NSW 2036
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645311
-- council_reference: DA/306/2019
-  description: Torrens title subdivision of an approved dual occupancy.
-  date_received: '2019-06-05'
-  address: 27 Lawson Street MATRAVILLE NSW 2036
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646393
-- council_reference: DA/307/2019
-  description: Strata subdivision of existing
-  date_received: '2019-06-06'
-  address: 14-14A Caley Street CHIFLEY NSW 2036
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646501
-- council_reference: DA/308/2019
-  description: Strata subdivision of existing into 2 lots
-  date_received: '2019-06-06'
-  address: 16 Wills Avenue CHIFLEY NSW 2036
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646505
-- council_reference: DA/309/2019
-  description: Torrens Title of existing dual occupancy into 2 lots
-  date_received: '2019-06-06'
-  address: 21-21A Jersey Road MATRAVILLE NSW 2036
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646506
-- council_reference: DA/310/2019
-  description: Torrens Title subdivision of dual occupancy
-  date_received: '2019-06-06'
-  address: 93 Macquarie Street CHIFLEY NSW 2036
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646507
-- council_reference: DA/311/2019
-  description: Construct rear addition to dwelling.
-  date_received: '2019-06-07'
-  address: 66 Mooramie Avenue KENSINGTON NSW 2033
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646568
-- council_reference: DA/370/2017B
-  description: 'Modification of approved development by addition of Building Manager''s
-    office on ground floor of Building E3.3, updated BASIX certificate, alteration
-    to basement car and bicycle parking layout. Original consent: Development Application
-    for Lots E3 and E4 within the Newmarket Randwick development comprising of demolition
-    of existing structures, remediation works construction of 4 residential flat buildings
-    between 3 and 7 storeys containing 165 dwellings, two levels of basement car parking
-    with 175 residential car park spaces, 17 visitor spaces, 165 bicycle spaces, 10
-    motorcycle spaces, landscaping and associated works (Heritage Item).'
-  date_received: '2019-06-04'
-  address: 29-39 Young Street RANDWICK NSW 2031
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646308
-- council_reference: DA/387/2018A
-  description: 'Modification of approved development by increase size of rear first
-    floor terrace and construct roof over portion of terrace. Original Consent: Demolition
-    of existing structures, construction of a new 2 storey dwelling with semi-basement
-    garage and associated works.'
-  date_received: '2019-05-28'
-  address: 37 Brook Street COOGEE NSW 2034
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645794
-- council_reference: DA/486/2017A
-  description: 'Modification of approved development including ground and first floor
-    internal modifications, changes to ground floor windows, changes to building materials,
-    new skylight, and associated works. Original consent: Demolition of existing structures,
-    construction of two storey attached dual occupancy with garages and associated
-    works.'
-  date_received: '2019-06-04'
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=686819
+- council_reference: DA/295/2020
+  description: Torrens title subdivision of existing dual occupancy into two lots.
+  date_received: '2020-06-26'
   address: 11 Giles Street CHIFLEY NSW 2036
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646288
-- council_reference: DA/502/2018B
-  description: 'Modification of approved development by re-shaping awning footprint
-    at the Entry Level and provision of a support column below on the southern side
-    of the awning. Original consent: New awning above the rear outdoor terrace area
-    at lower ground floor level.'
-  date_received: '2019-06-03'
-  address: 7 Seaside Parade SOUTH COOGEE NSW 2034
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=686820
+- council_reference: DA/296/2020
+  description: Demolition of the existing dwelling and the construction of a two storey
+    dwelling with double garage and inground pool.
+  date_received: '2020-06-26'
+  address: 106 Macquarie Street CHIFLEY NSW 2036
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646097
-- council_reference: DA/576/2017A
-  description: 'Modification of approved development by deletion of secondary dwelling,
-    alterations in opening of outbuilding at rear, changes to openings at rear of
-    dwelling, alteration to kitchen and alterations to driveway. Original consent:
-    Ground level alterations and additions to existing dwelling including deck at
-    rear, alterations and additions to existing rear outbuilding with conversion to
-    secondary dwelling.'
-  date_received: '2019-05-27'
-  address: 144 Boyce Road MAROUBRA NSW 2035
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=686499
+- council_reference: DA/297/2020
+  description: Demolition of existing structures and construction of a four storey,
+    86 room boarding house (including 1 on-site manager's room) with basement parking,
+    tree removal, landscaping and associated works (variations to building height
+    and FSR of the RLEP 2012).
+  date_received: '2020-06-26'
+  address: 9 Abbotford Street KENSINGTON NSW 2033
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645672
-- council_reference: DA/726/2018A
-  description: 'Modification of approved development. Original consent: Alterations
-    and two storey addition to the rear of the existing dwelling (Heritage Item).'
-  date_received: '2019-06-07'
-  address: 13 Kemmis Street RANDWICK NSW 2031
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=687030
+- council_reference: DA/300/2020
+  description: Alterations and additions to existing dwelling house including ground
+    floor extension to the rear, reinstatement of ground floor veranda in the front,
+    addition of a hardstand car parking space in the frontage, upgrades to front fence
+    and pedestrian entrance, and associated works.
+  date_received: '2020-06-29'
+  address: 34 Greville Street CLOVELLY NSW 2031
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646564
-- council_reference: DA/727/2017A
-  description: 'Modification of approved development to relocation of swimming pools
-    towards rear, and alterations to rear alfresco area and privacy screens. Original
-    consent: Demolition of existing structures, Torrens Title subdivision into 2 lots,
-    construction of 2x3 storey semi-detached dwellings with garages to front, swimming
-    pools to rear, landscaping and associated works.'
-  date_received: '2019-05-28'
-  address: 49 Irvine Street KINGSFORD NSW 2032
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=687160
+- council_reference: DA/301/2020
+  description: Partial demolition of existing dwelling and construction of a 3 storey
+    attached dual occupancy with double garages, landscaping and associated works.
+  date_received: '2020-06-30'
+  address: 43 Avoca Street RANDWICK NSW 2031
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645763
-- council_reference: DA/755/2018B
-  description: 'Modification to approved development to change cost of works to $75,000.00
-    Original consent: Construction of first floor secondary dwelling above existing
-    garage fronting Court Ave.'
-  date_received: '2019-05-30'
-  address: 211 Doncaster Avenue KINGSFORD NSW 2032
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=687349
+- council_reference: DA/302/2020
+  description: Alterations and additions to existing residential dwelling including
+    rear extension to ground floor, first floor and attic, new dormer and internal
+    alterations, and swimming pool (Heritage Item).
+  date_received: '2020-06-30'
+  address: 17 Oswald Street RANDWICK NSW 2031
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=646036
-- council_reference: DA/817/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra''s payphone.'
-  date_received: '2019-05-27'
-  address: 1-11 Rainbow Street KINGSFORD NSW 2032
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=686057
+- council_reference: DA/303/2020
+  description: Demolition of two existing buildings and structures; excavation below
+    ground level for one level of basement car parking; construction of a three storey
+    residential flat building, comprising 6 apartments 10 car parking spaces and 717.9sqm
+    of GFA; site landscaping; vehicular access via Berwick Street and augmentation
+    of services infrastructure and utilities (Variation to Height and GFA).
+  date_received: '2020-06-30'
+  address: 3 Berwick Street COOGEE NSW 2034
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645625
-- council_reference: DA/818/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra''s payphone.'
-  date_received: '2019-05-27'
-  address: 169T Bunnerong Road MAROUBRA NSW 2035
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=686219
+- council_reference: DA/304/2020
+  description: Construction of a detached single storey Secondary Dwelling at the
+    rear, addition of a swimming pool, landscaping and associated works.
+  date_received: '2020-06-30'
+  address: 53 Eastern Avenue KINGSFORD NSW 2032
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645627
-- council_reference: DA/819/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra''s payphone.'
-  date_received: '2019-05-27'
-  address: 178-182R Marine Parade MAROUBRA NSW 2035
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=687592
+- council_reference: DA/305/2020
+  description: Change of use from a single dwelling house to an attached dual occupancy
+    containing 2 dwellings (one dwelling above the other) including internal and external
+    alterations and additions, extension towards the frontage and the rear at the
+    ground floor with rear cabana, extended balcony at the first floor, changes to
+    windows, addition of a hard stand car parking space for unit 2, new paving, landscaping
+    and associated works.
+  date_received: '2020-06-30'
+  address: 32 Nix Avenue MALABAR NSW 2036
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645634
-- council_reference: DA/820/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra''s payphone.'
-  date_received: '2019-05-27'
-  address: 205 Maroubra Road MAROUBRA NSW 2035
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=687602
+- council_reference: DA/306/2020
+  description: Demolition of existing carport and construction of a new double garage
+    with first floor secondary dwelling on top with front and rear-facing balconies,
+    addition of a first floor balcony to rear of existing semi-detached dwelling,
+    new swimming pool, landscaping and associated works.
+  date_received: '2020-06-30'
+  address: 251 Rainbow Street SOUTH COOGEE NSW 2034
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645647
-- council_reference: DA/823/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra’s payphone.'
-  date_received: '2019-05-27'
-  address: 112-124 Anzac Parade KENSINGTON NSW 2033
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=687593
+- council_reference: DA/307/2020
+  description: Alterations and additions to existing semi-detached dwelling including
+    substantial demolition of existing walls and roof, construction of an integrated
+    semi-basement single car garage in the frontage with terrace on top, ground floor
+    extension to the rear, construction of a new first floor with courtyard at the
+    first floor.
+  date_received: '2020-06-30'
+  address: 22 Chatham Street RANDWICK NSW 2031
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645649
-- council_reference: DA/824/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra’s payphone.'
-  date_received: '2019-05-27'
-  address: 51T Bunnerong Road KINGSFORD NSW 2032
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=687328
+- council_reference: DA/308/2020
+  description: Alterations and additions to the rear of existing dwelling house including
+    extension of ground floor alfresco, extension of first floor, internal alterations
+    and associated works.
+  date_received: '2020-07-01'
+  address: 59 Fairsky Street SOUTH COOGEE NSW 2034
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645651
-- council_reference: DA/825/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra’s payphone.'
-  date_received: '2019-05-27'
-  address: 222T Clovelly Road COOGEE NSW 2034
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=687561
+- council_reference: DA/309/2020
+  description: Change of use from previous cafe to laundry cafe & associated uses
+    including outdoor seating previously approved (Heritage Area & Item).
+  date_received: '2020-07-02'
+  address: 205 Avoca Street RANDWICK NSW 2031
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645661
-- council_reference: DA/826/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra’s payphone.'
-  date_received: '2019-05-27'
-  address: 2T St Marks Road RANDWICK NSW 2031
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=688033
+- council_reference: DA/310/2020
+  description: Proposed Charcoal Grill to an existing restaurant with ducted exhaust
+    to the roof above.
+  date_received: '2020-07-02'
+  address: 242 Coogee Bay Road COOGEE NSW 2034
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645663
-- council_reference: DA/827/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra’s payphone.'
-  date_received: '2019-05-27'
-  address: 260-266 Coogee Bay Road COOGEE NSW 2034
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=687831
+- council_reference: DA/311/2020
+  description: Construction of an eighteen (18) storey mixed-use development comprising
+    ground / first / second floor commercial and a boarding house comprising 399 boarding
+    rooms and a manager’s room, basement parking, public plaza, pedestrian through-site
+    links, signage, earthworks, landscaping and associated works (variations to building
+    height and FSR standards of the RLEP 2012).
+  date_received: '2020-07-03'
+  address: 391-393 Anzac Parade KINGSFORD NSW 2032
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645667
-- council_reference: DA/828/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra’s payphone.'
-  date_received: '2019-05-27'
-  address: 204-230 Marine Parade MAROUBRA NSW 2035
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=687648
+- council_reference: DA/312/2020
+  description: Demolition to rear of dwelling and alterations to rear of semi detached
+    dwelling, new basement garage, landscape works and tree removal from rear yard.
+  date_received: '2020-07-03'
+  address: 5 Quail Street COOGEE NSW 2034
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645670
-- council_reference: DA/829/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra’s payphone.'
-  date_received: '2019-05-27'
-  address: 1203T Anzac Parade MATRAVILLE NSW 2036
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=688070
+- council_reference: DA/313/2020
+  description: Conversion of Company title to Strata Title of 16 lots.
+  date_received: '2020-07-03'
+  address: 322 Arden Street COOGEE NSW 2034
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645676
-- council_reference: DA/830/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra’s payphone.'
-  date_received: '2019-05-27'
-  address: 307T Malabar Road MAROUBRA NSW 2035
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=688270
+- council_reference: DA/314/2020
+  description: Torrens title subdivision of an approved attached dual occupancy into
+    two allotments.
+  date_received: '2020-07-03'
+  address: 15 Solander Street MATRAVILLE NSW 2036
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645678
-- council_reference: DA/831/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra’s payphone.'
-  date_received: '2019-05-27'
-  address: 1218T Anzac Parade MALABAR NSW 2036
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=688289
+- council_reference: DA/315/2020
+  description: Demolition of existing structures and construction of a two-storey
+    dwelling house with semi-basement, detached cabana and swimming pool at the rear,
+    landscaping, fencing and associated works.
+  date_received: '2020-07-06'
+  address: 7 Inman Street MAROUBRA NSW 2035
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645679
-- council_reference: DA/832/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra’s payphone.'
-  date_received: '2019-05-27'
-  address: 219T Clovelly Road RANDWICK NSW 2031
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=688408
+- council_reference: DA/316/2020
+  description: Demolition of the existing dwelling and construction of 2 storey dwelling
+    over basement parking and in-ground swimming pool.
+  date_received: '2020-07-07'
+  address: 3 Ron Filbee Place MAROUBRA NSW 2035
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645680
-- council_reference: DA/833/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra’s payphone.'
-  date_received: '2019-05-27'
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=688705
+- council_reference: DA/317/2020
+  description: Alterations and additions to existing residential dwelling including
+    extension of rear deck, partial demolition of roof for proposed study and terrace.
+  date_received: '2020-07-07'
+  address: 7 Varna Street CLOVELLY NSW 2031
+  date_scraped: '2019-05-15'
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=688551
+- council_reference: DA/318/2020
+  description: Demolition of existing structures and construction of a two storey
+    attached dual occupancy, landscaping and associated works.
+  date_received: '2020-07-08'
+  address: 8 Flinders Street MATRAVILLE NSW 2036
+  date_scraped: '2019-05-15'
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=688918
+- council_reference: DA/319/2020
+  description: Alterations and additions to existing dwelling house, including ground
+    floor extension to the rear with deck, new first floor addition, landscaping and
+    associated works.
+  date_received: '2020-07-08'
+  address: 43 Alma Road MAROUBRA NSW 2035
+  date_scraped: '2019-05-15'
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=688958
+- council_reference: DA/320/2020
+  description: 'Demolition of the existing dwelling house, attached garage and removal
+    of all existing trees for the construction of an attached Dual Occupancy (variation
+    to floor space ratio) - NSW Planning Portal Ref: PAN-19806.'
+  date_received: '2020-07-09'
+  address: 27 Adams Avenue MALABAR NSW 2036
+  date_scraped: '2019-05-15'
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=689065
+- council_reference: DA/321/2020
+  description: 'Detached extension to the dwelling (Heritage Conservation Area) -
+    NSW Planning Portal Ref: PAN-20288.'
+  date_received: '2020-07-09'
+  address: 7 Dine Street RANDWICK NSW 2031
+  date_scraped: '2019-05-15'
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=689120
+- council_reference: DA/405/2019/A
+  description: 'S4.55(1) modification to correct error. Original consent: Alterations
+    and new upper level additions to the existing dwelling house and outbuilding including
+    conversion of the outbuilding into a secondary dwelling, associated site and landscaped
+    works.'
+  date_received: '2020-06-30'
+  address: 19 Keith Street CLOVELLY NSW 2031
+  date_scraped: '2019-05-15'
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=687647
+- council_reference: DA/502/2017/B
+  description: 'Section 4.55(2) - modification to approved development for minor changes
+    to usable spaces including balcony areas. Original Consent: Demolition of existing
+    structures, construction of part 3, part 4 storey residential flat building containing
+    16 dwellings, basement parking for 22 cars, landscaping and associated works (variation
+    to height control).'
+  date_received: '2020-07-08'
+  address: 149-151 Malabar Road SOUTH COOGEE NSW 2034
+  date_scraped: '2019-05-15'
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=689088
+- council_reference: DA/557/2019/A
+  description: 'Section 4.55 modification of approved development including extension
+    of level 1, reconfiguration of rooms and walls, addition of and alterations to
+    windows, removal of water feature, changes to façade, addition of landscape planter,
+    addition of and alterations to skylights and associated works. Original Consent:
+    Alterations and additions to existing residential dwelling, including reconfiguration
+    of all levels, swimming pool and associated landscape works (variation to height
+    control).'
+  date_received: '2020-07-06'
+  address: 26 Hamilton Street COOGEE NSW 2034
+  date_scraped: '2019-05-15'
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=688483
+- council_reference: DA/656/2013/B
+  description: 'Section 4.55 modification of approved development to add a bathroom
+    within the attic space above Unit 4. Original Consent: Alterations and additions
+    to the existing residential flat building to install attic rooms in the roof space
+    over units 3 & 4 each with new gable ended dormer windows.'
+  date_received: '2020-07-07'
+  address: 3/116 Carrington Road RANDWICK NSW 2031
+  date_scraped: '2019-05-15'
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=688831
+- council_reference: DA/657/2018/A
+  description: 'Section 4.55(2) modification to approved development to delete Condition
+    2(b) which requires a glass balustrade to balcony above the garage; alter privacy
+    screening along the eastern elevation and installation of front fence and gate.
+    Original Consent: Demolition of existing structures, construction of 2 storey
+    dwelling with garage to front, swimming pool to rear, landscaping and associated
+    works.'
+  date_received: '2020-06-25'
+  address: 27 Battery Street CLOVELLY NSW 2031
+  date_scraped: '2019-05-15'
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=686575
+- council_reference: DA/76/2020/A
+  description: 'S4.55(1) Modification to correct error. Original consent: Alterations
+    and additions to the Royal Randwick Shopping Centre, including upgrade works to
+    the northern and southern pedestrian entrances on Belmore Road and pedestrian
+    entrance on Avoca Street, including upgrade works to the car park entrance and
+    loading dock on Avoca Street, directional signage, murals and associated works.'
+  date_received: '2020-06-29'
+  address: 73-109 Belmore Road RANDWICK NSW 2031
+  date_scraped: '2019-05-15'
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=687345
+- council_reference: DA/883/2010/B
+  description: 'Section 4.55 modification of approved development for the relocation
+    of the kitchen and the bar to the rear of the existing restaurant, rearrangement
+    of seating, and addition of a new kitchen exhausts. Original Consent: Application
+    to extend the existing restaurant with hours of operation 10am to 10pm 7 days
+    into the adjoining tenancy to increase the seating capacity to 294 patrons, internal
+    fit-out, new shopfronts and new signage.'
+  date_received: '2020-07-07'
+  address: 238-240 Coogee Bay Road COOGEE NSW 2034
+  date_scraped: '2019-05-15'
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=688749
+- council_reference: DA/94/2016/A
+  description: 'Modification of the approved development to remove condition 51, requiring
+    the existing overhead power feed from the distribution pole to be relocated underground
+    via a ugoh connection. Original consent: Demolition of existing structures, construction
+    of two storey attached dual occupancy with garages and associated works.'
+  date_received: '2020-06-30'
+  address: 56-56A Mawson Parade CHIFLEY NSW 2036
+  date_scraped: '2019-05-15'
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=687458
+- council_reference: DA/963/2018/A
+  description: 'Section 4.55 modification to approved development for the replacement
+    of the existing cental mechanical exhaust. Original Consent: Refurbishment of
+    internal and external areas at lower ground, ground and first floor level including
+    level pool area and new awning along Arden Street & Carr Street (Clause 4.6 variation
+    to FSR).'
+  date_received: '2020-06-30'
   address: 238-246 Arden Street COOGEE NSW 2034
   date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645681
-- council_reference: DA/834/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra’s payphone.'
-  date_received: '2019-05-27'
-  address: 157T Dolphin Street COOGEE NSW 2034
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645682
-- council_reference: DA/835/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra’s payphone.'
-  date_received: '2019-05-27'
-  address: 180-196 Coogee Bay Road COOGEE NSW 2034
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645693
-- council_reference: DA/836/2018B
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra’s payphone.'
-  date_received: '2019-05-27'
-  address: 272-282 Clovelly Road COOGEE NSW 2034
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645697
-- council_reference: DA/837/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra’s payphone.'
-  date_received: '2019-05-27'
-  address: 1-7 Maroubra Road MAROUBRA NSW 2035
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645699
-- council_reference: DA/838/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra’s payphone.'
-  date_received: '2019-05-27'
-  address: 50T Carrington Road RANDWICK NSW 2031
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645700
-- council_reference: DA/839/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra’s payphone.'
-  date_received: '2019-05-27'
-  address: 32 Alison Road RANDWICK NSW 2031
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645702
-- council_reference: DA/840/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra’s payphone.'
-  date_received: '2019-05-27'
-  address: 159 Clovelly Road RANDWICK NSW 2031
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645703
-- council_reference: DA/841/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra’s payphone.'
-  date_received: '2019-05-27'
-  address: 1-3 Elizabeth Street RANDWICK NSW 2031
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645704
-- council_reference: DA/842/2018A
-  description: 'Modification of approved development to delete condition 8b. Original
-    Consent: Change of advertising content from Telstra standard telephone services
-    advertising to third party advertising on Telstra’s payphone.'
-  date_received: '2019-05-27'
-  address: 103T Brook Street COOGEE NSW 2034
-  date_scraped: '2019-05-15'
-  info_url: http://planning.randwick.nsw.gov.au/Pages/XC.Track.Advanced/SearchApplication.aspx?id=645705
+  info_url: https://planning.randwick.nsw.gov.au/pages/xc.track.advanced/SearchApplication.aspx?id=687501
