@@ -136,7 +136,7 @@ module IconScraper
     boroondara: {
       url: "https://eservices.boroondara.vic.gov.au/EPlanning/Pages/XC.Track",
       period: "thismonth",
-      types: %w[PlnPermit PlnPostPer]
+      types: %w[PlnPermit PlnAppeals PlnPostPer PlanPermGr PlanAmend PlanAppeal]
     }
   }.freeze
 end
