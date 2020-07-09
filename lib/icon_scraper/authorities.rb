@@ -109,7 +109,7 @@ module IconScraper
         MCSS OP EC SB SBSS PD BX ROL QRAL
       ]
     },
-    rockdale: {
+    bayside: {
       url: "https://eplanning.bayside.nsw.gov.au/ePlanning/Pages/XC.Track",
       period: "thismonth",
       types: [217]
