@@ -116,7 +116,7 @@ module IconScraper
     },
     willoughby: {
       url: "https://eplanning.willoughby.nsw.gov.au/pages/xc.track",
-      period: "last90days",
+      period: "last28days",
       types: [
         "da01", "da01a", "da02a", "da03", "da05", "da06", "da07",
         "da10", "s96", "cc01a", "cc01b", "cc03", "cc04", "cd01a",
