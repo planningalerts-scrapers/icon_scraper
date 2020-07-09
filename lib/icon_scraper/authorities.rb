@@ -37,9 +37,8 @@ module IconScraper
       period: "last14days"
     },
     coffs_harbour: {
-      url: "https://planningexchange.coffsharbour.nsw.gov.au/PortalProd/Pages/XC.Track",
-      period: "last14days",
-      ssl_verify: false
+      url: "https://chcc-icon.saas.t1cloud.com/public/Pages/xc.Track",
+      period: "last14days"
     },
     blue_mountains: {
       url: "https://www2.bmcc.nsw.gov.au/DATracking/Pages/XC.Track",
